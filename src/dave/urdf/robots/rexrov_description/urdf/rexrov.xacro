@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<robot name="rexrov" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:arg name="debug" default="false"/>
+  <xacro:arg name="namespace" default="rexrov"/>
+  <xacro:arg name="inertial_reference_frame" default="world"/>
+
+  <!-- Include the ROV macro file -->
+  <xacro:include filename="$(find rexrov_description)/urdf/rexrov_base.xacro"/>
+  <xacro:include filename="$(find uuv_descriptions)/urdf/rexrov.gazebo.xacro"/>
+  <!-- <xacro:include filename="$(find rexrov_description)/urdf/multibeam_sonar_blueview_p900.xacro"/> -->
+
+  <!-- <xacro:multibeam_blueview_p900_macro
+    name="blueview_p900"
+    scale="1.0 1.0 1.0"
+    sonar_image_topic="sonar_image"
+    debug="false"
+    gpu_ray="true"
+    robot_name="rexrov"
+    sonar_image_raw_topic="sonar_image_raw"
+    maxDistance="12"
+    raySkips="10"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="true"
+    writeFrameInterval="5"
+    gaussian_noise_mean="0.0"
+    gaussian_noise_stddev="0.0"
+    fidelity="500"
+    artificialVehicleVibration="false"
+    constantReflectivity="true"
+    reflectivityDatabaseFile="variationalReflectivityDatabase.csv"
+    robot_link="$(arg namespace)/base_link"
+    ray_visual="true">
+    <origin xyz="1.3 0 -0.615" rpy="0 0 0"/>
+  </xacro:multibeam_blueview_p900_macro> -->
+
+  <!-- Sonar sensor -->
+  <!-- <xacro:multibeam_blueview_p900_raster_macro
+    name="blueview_p900"
+    scale="'1 1 1'"
+    sonar_image_topic="sonar_image"
+    debug="false"
+    sonar_image_raw_topic="sonar_image_raw"
+    maxDistance="12"
+    raySkips="10"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="false"
+    writeFrameInterval="5"
+    artificialVehicleVibration="false"
+    constantReflectivity="true"
+    reflectivityDatabaseFile="variationalReflectivityDatabase"
+    robot_link="${namespace}/base_link"
+    ray_visual="true">
+    <origin xyz="1.6 0 0.6" rpy="0 0 0"/>
+  </xacro:multibeam_blueview_p900_raster_macro> -->
+
+  <!-- <xacro:multibeam_blueview_p900_ray_macro
+    name="blueview_p900"
+    scale="'1 1 1'"
+    sonar_image_topic="sonar_image"
+    debug="false"
+    robot_name="rexrov"
+    sonar_image_raw_topic="sonar_image_raw"
+    maxDistance="12"
+    raySkips="10"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="false"
+    writeFrameInterval="5"
+    gaussian_noise_mean="0.0"
+    gaussian_noise_stddev="0.0"
+    fidelity="500"
+    robot_link="${namespace}/base_link"
+    ray_visual="true">
+    <origin xyz="1.6 0 0.6" rpy="0 0 0"/>
+  </xacro:multibeam_blueview_p900_ray_macro> -->
+
+  <!-- Create the ROV -->
+  <xacro:rexrov_base
+    namespace="$(arg namespace)"
+    inertial_reference_frame="$(arg inertial_reference_frame)">
+    <!-- The underwater object plugin is given as an input block parameter to
+         allow the addition of external models of manipulator units -->
+    <gazebo>
+      <plugin name="uuv_plugin" filename="libuuv_underwater_object_ros_plugin.so">
+        <fluid_density>1028.0</fluid_density>
+        <flow_velocity_topic>hydrodynamics/current_velocity</flow_velocity_topic>
+        <debug>$(arg debug)</debug>
+        <!-- Adding the hydrodynamic and hydrostatic parameters for the vehicle-->
+        <xacro:rexrov_hydro_model namespace="$(arg namespace)"/>
+      </plugin>
+    </gazebo>
+  </xacro:rexrov_base>
+
+  <gazebo>
+      <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+        <robotNamespace>/$(arg namespace)</robotNamespace>
+        <robotParam>/$(arg namespace)/robot_description</robotParam>
+      </plugin>
+  </gazebo>
+
+  <!-- Joint state publisher plugin -->
+  <xacro:default_joint_state_publisher namespace="$(arg namespace)" update_rate="50"/>
+
+</robot>
+

@@ -1,0 +1,329 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/cc9Q2OnU.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/ccSpXON3.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>: error: missing '(' after predicate
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/cckVid9b.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/ccSiVfYl.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+cc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/ccl1sIyA.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/ccNqpcnJ.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>: error: missing '(' after predicate
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/ccUNWEzU.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+CMakeCCompilerId.c:670:1: fatal error: error closing /tmp/ccRI3WA5.s: 设备上没有空间
+  670 | }
+      | ^
+compilation terminated.
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+cc: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: fatal error: no input files
+compilation terminated.
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:660:1: fatal error: error closing /tmp/ccySFnXr.s: 设备上没有空间
+  660 | }
+      | ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:660:1: fatal error: error closing /tmp/cctBwXez.s: 设备上没有空间
+  660 | }
+      | ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+c++: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:660:1: fatal error: error closing /tmp/ccgIb3mX.s: 设备上没有空间
+  660 | }
+      | ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+1
+CMakeCXXCompilerId.cpp:660:1: fatal error: error closing /tmp/ccI3LR47.s: 设备上没有空间
+  660 | }
+      | ^
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--c++’
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+1
+c++: error: unrecognized command line option ‘--ec++’; did you mean ‘-Weffc++’?
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+c++: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+c++: error: unrecognized command line option ‘--target=arm-arm-none-eabi’
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/yang/my_uuv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7b295/fast && /usr/bin/make -f CMakeFiles/cmTC_7b295.dir/build.make CMakeFiles/cmTC_7b295.dir/build
+make[1]: 进入目录“/home/yang/my_uuv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7b295.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7b295.dir/testCCompiler.c.o   -c /home/yang/my_uuv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/yang/my_uuv/build/CMakeFiles/CMakeTmp/testCCompiler.c:11:1: fatal error: error closing /tmp/ccOZJn3X.s: 设备上没有空间
+   11 | { (void)argv; return argc-1;}
+      | ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_7b295.dir/build.make:66：CMakeFiles/cmTC_7b295.dir/testCCompiler.c.o] 错误 1
+make[1]: 离开目录“/home/yang/my_uuv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_7b295/fast] 错误 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/yang/my_uuv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46296/fast && /usr/bin/make -f CMakeFiles/cmTC_46296.dir/build.make CMakeFiles/cmTC_46296.dir/build
+make[1]: 进入目录“/home/yang/my_uuv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_46296.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_46296.dir/src.c.o   -c /home/yang/my_uuv/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_46296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46296.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_46296.dir/src.c.o  -o cmTC_46296 
+/usr/bin/ld: CMakeFiles/cmTC_46296.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_46296.dir/build.make:87：cmTC_46296] 错误 1
+make[1]: 离开目录“/home/yang/my_uuv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_46296/fast] 错误 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yang/my_uuv/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_262e7/fast && /usr/bin/make -f CMakeFiles/cmTC_262e7.dir/build.make CMakeFiles/cmTC_262e7.dir/build
+make[1]: 进入目录“/home/yang/my_uuv/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_262e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_262e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_262e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262e7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_262e7.dir/CheckFunctionExists.c.o  -o cmTC_262e7  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_262e7.dir/build.make:87：cmTC_262e7] 错误 1
+make[1]: 离开目录“/home/yang/my_uuv/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_262e7/fast] 错误 2
+
+
+

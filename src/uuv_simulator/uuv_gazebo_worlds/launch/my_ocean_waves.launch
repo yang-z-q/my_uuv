@@ -1,0 +1,57 @@
+<launch>
+    <arg name="gui" default="true"/>
+    <arg name="paused" default="false"/>
+    <arg name="set_timeout" default="false"/>
+    <arg name="timeout" default="0.0"/>
+
+    <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="worlds/my_ocean_waves.world"/>
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="$(arg gui)"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+        <arg name="verbose" value="true"/>
+    </include>
+
+    <include file="$(find uuv_assistants)/launch/publish_world_ned_frame.launch"/>
+    
+    <node name="publish_world_models"
+        pkg="uuv_assistants"
+        type="publish_world_models.py"
+        output="screen">
+        <rosparam subst_value="true">
+            meshes:
+                heightmap:
+                    
+                    model: sea_bottom
+                seafloor:  # 海底参数
+                    plane: [25, 25, 0.1]       # 尺寸调整为25x25x0.1m
+                    pose:
+                        position: [0, 0, 0]   # Z轴位置提升到-5米
+                north:      # 北墙
+                    plane: [0.1, 25, 5]        # 厚度0.1m x 长度25m x 高度5m
+                    pose:
+                        position: [12.5, 0, -2.5]  # X边界12.5m，Z中心位置-2.5m
+                south:      # 南墙
+                    plane: [0.1, 25, 5]
+                    pose:
+                        position: [-12.5, 0, -2.5]
+                west:       # 西墙
+                    plane: [25, 0.1, 5]        # 长度25m x 厚度0.1m x 高度5m
+                    pose:
+                        position: [0, 12.5, -2.5]  # Y边界12.5m
+                east:       # 东墙
+                    plane: [25, 0.1, 5]
+                    pose:
+                        position: [0, -12.5, -2.5]
+        </rosparam>
+    </node>
+
+    <group if="$(arg set_timeout)">
+        <include file="$(find uuv_assistants)/launch/set_simulation_timer.launch">
+            <arg name="timeout" value="$(arg timeout)"/>
+        </include>
+    </group>
+</launch>

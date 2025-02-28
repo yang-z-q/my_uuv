@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC    -shared -Wl,-soname,libtransponderPlugin.so -o /home/yang/my_uuv/devel/lib/libtransponderPlugin.so CMakeFiles/transponderPlugin.dir/src/usbl_transponder_plugin.cc.o   -L/opt/ros/noetic/lib  -L/usr/lib/x86_64-linux-gnu/gazebo-11/plugins  -L/home/yang/my_uuv/build/dave/gazebo/dave_gazebo_model_plugins/msgs 

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_AcousticCurrentProfile.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Adcp.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Compass.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Ctd.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_DepthPressure.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Dvl.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_ForwardLookingStatus.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Frequency.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Gyro.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Ins.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_MemsImu.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_NortekDF21.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_NortekVectorSystem.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_OxygenConcentration.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_PhinsStandard.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_PhinsStatus.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_PhinsStdbin3.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Range3D.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Ranges3D.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_RdiPD0.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_RdiPD5.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_SoundSpeed.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_UbloxNav.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_UbloxSatellite.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_UbloxSatellites.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_UbloxSignal.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_UbloxSignals.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_UbloxSurveyIn.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_VectorMagneticField.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_Velocity3D.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/_WaterCurrentProfile.py"
+  "/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_sensor_msgs/msg/__init__.py"
+  "CMakeFiles/ds_sensor_msgs_generate_messages_py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/ds_sensor_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

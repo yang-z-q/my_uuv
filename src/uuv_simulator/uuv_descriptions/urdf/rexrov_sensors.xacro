@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!-- Copyright (c) 2016 The UUV Simulator Authors.
+     All rights reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- DVL  -->
+  <xacro:default_dvl_macro
+    namespace="${namespace}"
+    parent_link="${namespace}/base_link"
+    inertial_reference_frame="${inertial_reference_frame}">
+    <origin xyz="-1.4 0 -0.9" rpy="0 ${0.5*pi} 0"/>
+  </xacro:default_dvl_macro>
+
+  <!-- Magnetometer 磁力计 -->
+  <xacro:default_magnetometer namespace="${namespace}" parent_link="${namespace}/base_link"/>
+
+  <!-- RPT  -->
+  <xacro:default_rpt namespace="${namespace}" parent_link="${namespace}/base_link">
+    <origin xyz="-1.32 0 0.8" rpy="0 0 0"/>
+  </xacro:default_rpt>
+
+  <!-- Pressure  -->
+  <xacro:default_pressure_macro namespace="${namespace}" parent_link="${namespace}/base_link">
+    <origin xyz="-1.32 0.5 0.85" rpy="0 0 0"/>
+  </xacro:default_pressure_macro>
+
+  <!-- IMU  -->
+  <xacro:default_imu_macro
+    namespace="${namespace}"
+    parent_link="${namespace}/base_link"
+    inertial_reference_frame="${inertial_reference_frame}">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:default_imu_macro>
+
+  <!-- Mount a camera -->
+  <xacro:default_camera namespace="${namespace}" parent_link="${namespace}/base_link" suffix="">
+    <origin xyz="1.15 0 0.4" rpy="0 0.6 0"/>
+  </xacro:default_camera>
+
+  <xacro:default_camera namespace="${namespace}" parent_link="${namespace}/base_link" suffix="right">
+    <origin xyz="1.15 -0.63 0.4" rpy="0 0.6 0.4"/>
+  </xacro:default_camera>
+
+  <xacro:default_camera namespace="${namespace}" parent_link="${namespace}/base_link" suffix="left">
+    <origin xyz="1.15 0.63 0.4" rpy="0 0.6 -0.4"/>
+  </xacro:default_camera>
+
+  <!-- Mount a GPS. -->
+  <xacro:default_gps namespace="${namespace}" parent_link="${namespace}/base_link" />
+
+  <!-- Mount a Pose 3D sensor. -->
+  <xacro:default_pose_3d_macro
+    namespace="${namespace}"
+    parent_link="${namespace}/base_link"
+    inertial_reference_frame="${inertial_reference_frame}" />
+
+  <!-- Sonar sensor -->
+  <!-- <xacro:multibeam_blueview_p900_macro
+    name="blueview_p900_horizontal"
+    scale="1.0 1.0 1.0"
+    sonar_image_topic="sonar_image_horizontal"
+    debug="false"
+    gpu_ray="true"
+    robot_name="rexrov"
+    sonar_image_raw_topic="sonar_image_raw_horizontal"
+    maxDistance="12"
+    raySkips="10"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="false"
+    writeFrameInterval="5"
+    gaussian_noise_mean="0.0"
+    gaussian_noise_stddev="0.0"
+    fidelity="500"
+    artificialVehicleVibration="false"
+    constantReflectivity="true"
+    reflectivityDatabaseFile="variationalReflectivityDatabase.csv"
+    robot_link="${namespace}/base_link"
+    ray_visual="true"> 
+    <origin xyz="1.4 0 0.5" rpy="${pi} 0 0"/>
+  </xacro:multibeam_blueview_p900_macro> -->
+
+  <!-- <xacro:multibeam_blueview_p900_macro
+    name="blueview_p900_vertical"
+    scale="1.0 1.0 1.0"
+    sonar_image_topic="sonar_image_vertical"
+    debug="false"
+    gpu_ray="true"
+    robot_name="rexrov"
+    sonar_image_raw_topic="sonar_image_raw_vertical"
+    maxDistance="12"
+    raySkips="10"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="true"
+    writeFrameInterval="5"
+    gaussian_noise_mean="0.0"
+    gaussian_noise_stddev="0.0"
+    fidelity="500"
+    artificialVehicleVibration="false"
+    constantReflectivity="true"
+    reflectivityDatabaseFile="variationalReflectivityDatabase.csv"
+    robot_link="${namespace}/base_link"
+    ray_visual="true">
+    <origin xyz="1.4 0 0.4" rpy="${pi/2} 0 0"/>
+  </xacro:multibeam_blueview_p900_macro> -->
+
+  <!-- <xacro:multibeam_blueview_p900_raster_macro 
+    name="blueview_p900_horizontal"
+    scale="1.0 1.0 1.0"
+    sonar_image_topic="sonar_image_horizontal"
+    debug="false"
+    robot_name="rexrov"
+    sonar_image_raw_topic="sonar_image_raw_vhorizontal"
+    maxDistance="20" 
+    raySkips="1"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="true"
+    writeFrameInterval="5"
+    artificialVehicleVibration="false"
+    constantReflectivity="true"
+    reflectivityDatabaseFile="variationalReflectivityDatabase.csv"
+    robot_link="${namespace}/base_link"
+    ray_visual="true">
+    <origin xyz="1.5 0 0.6" rpy="0 0 0"/>
+  </xacro:multibeam_blueview_p900_raster_macro> -->
+
+  <xacro:multibeam_blueview_p900_ray_macro 
+    name="blueview_p900"
+    scale="1.0 1.0 1.0"
+    sonar_image_topic="sonar_image"
+    debug="false"
+    robot_name="rexrov"
+    sonar_image_raw_topic="sonar_image_raw"
+    maxDistance="10" 
+    raySkips="1"
+    plotScaler="0"
+    sensorGain="0.4"
+    writeLog="true"
+    writeFrameInterval="5"
+    gaussian_noise_mean="0.0"
+    gaussian_noise_stddev="0.1"
+    fidelity="300"
+    robot_link="${namespace}/base_link"
+    ray_visual="true">
+    <origin xyz="1.5 0 0.6" rpy="${pi} 0 0"/>
+  </xacro:multibeam_blueview_p900_ray_macro>
+</robot>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="debug" default="false"/>
+
+  <arg name="x" default="0"/>
+  <arg name="y" default="0"/>
+  <arg name="z" default="-20"/>
+  <arg name="roll" default="0.0"/>
+  <arg name="pitch" default="0.0"/>
+  <arg name="yaw" default="0.0"/>
+
+  <arg name="namespace" default="caracara"/>
+  
+     <param name="/$(arg namespace)/caracara"
+            command="$(find xacro)/xacro '$(find caracara_description)/urdf/caracara.xacro'
+		             debug:=$(arg debug)
+                     namespace:=$(arg namespace)
+                     inertial_reference_frame:=world" />
+</launch>
+

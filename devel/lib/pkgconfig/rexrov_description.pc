@@ -1,0 +1,8 @@
+prefix=/home/yang/my_uuv/devel
+
+Name: rexrov_description
+Description: Description of rexrov_description
+Version: 3.1.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

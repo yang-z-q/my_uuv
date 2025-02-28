@@ -1,0 +1,8 @@
+prefix=/home/yang/my_uuv/devel
+
+Name: uuv_dave
+Description: Description of uuv_dave
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
