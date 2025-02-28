@@ -109,7 +109,7 @@
       <sensor name="${name}_sensor" type="gpu_ray">
         <visualize>false</visualize>
         <always_on>true</always_on>
-        <update_rate>10</update_rate>
+        <update_rate>30</update_rate>
         <ray>
           <scan>
             <!-- Set horizontal FOV by setting image height -->

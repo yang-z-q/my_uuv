@@ -2,10 +2,6 @@
     <!-- Flag to start recoding a rosbag  -->
     <arg name="record" default="false"/>
     <!-- Initial position and heading of the vehicle (wrt Gazebo's inertial frame)  -->
-    <!-- <arg name="x" default="50"/>
-    <arg name="y" default="130"/>
-    <arg name="z" default="-80"/>
-    <arg name="yaw" default="0"/> -->
 
     <arg name="x" default="0"/>
     <arg name="y" default="0"/>
@@ -15,10 +11,6 @@
     <arg name="use_ned_frame" default="false"/>
 
     <!-- Initialize the Gazebo world  -->
-    <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="world_name" value="worlds/my_world.world"/>
-        <arg name="verbose" value="true"/>
-    </include> -->
     <include file="$(find uuv_gazebo_worlds)/launch/my_ocean_waves.launch"/>
 
     <!-- Add the RexROV vehicle to the world  -->

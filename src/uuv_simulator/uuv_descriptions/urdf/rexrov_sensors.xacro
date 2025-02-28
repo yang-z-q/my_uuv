@@ -149,13 +149,13 @@
     raySkips="1"
     plotScaler="0"
     sensorGain="0.4"
-    writeLog="true"
+    writeLog="false"
     writeFrameInterval="5"
     gaussian_noise_mean="0.0"
     gaussian_noise_stddev="0.1"
-    fidelity="300"
+    fidelity="200"
     robot_link="${namespace}/base_link"
-    ray_visual="true">
+    ray_visual="false">
     <origin xyz="1.5 0 0.6" rpy="${pi} 0 0"/>
   </xacro:multibeam_blueview_p900_ray_macro>
 </robot>
