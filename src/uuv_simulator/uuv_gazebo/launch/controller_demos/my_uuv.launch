@@ -14,7 +14,7 @@
     <include file="$(find uuv_gazebo_worlds)/launch/my_ocean_waves.launch"/>
 
     <!-- Add the RexROV vehicle to the world  -->
-    <include file="$(find uuv_descriptions)/launch/upload_rexrov.launch">
+    <include file="$(find uuv_descriptions)/launch/my_upload_rexrov.launch">
         <arg name="x" default="$(arg x)"/>
         <arg name="y" default="$(arg y)"/>
         <arg name="z" default="$(arg z)"/>

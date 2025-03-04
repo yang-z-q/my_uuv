@@ -1,0 +1,331 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+
+<model name="ocean">
+  <static>true</static>
+  <link name="ocean_link">
+
+  <!-- 海面尺寸调整为25x25米 -->
+  <visual name="ocean_surface">
+    <pose>0 0 0 0 0 0</pose>
+    <cast_shadows>false</cast_shadows>
+    <geometry>
+      <mesh>
+        <uri>file://Media/models/sea_surface_1000m_x_1000m.dae</uri>
+        <!-- 缩放比例调整为0.025得到25x25米海面 -->
+        <scale>0.025 0.025 0.025</scale>
+      </mesh>
+    </geometry>
+    <material>
+      <script>
+        <uri>file://Media/materials/scripts/waves.material</uri>
+        <name>UUVSimulator/SimpleWaves</name>
+      </script>
+    </material>
+  </visual>
+
+  <!-- 海底调整为25x25米 -->
+  <visual name="seafloor">
+    <cast_shadows>false</cast_shadows>
+    <pose>0 0 -5 0 0 0</pose>
+    <geometry>
+      <box>
+        <size>25 25 0.1</size> <!-- 深度5米 -->
+      </box>
+    </geometry>
+  </visual>
+
+  <collision name="seafloor">
+    <pose>0 0 -5 0 0 0</pose>
+    <geometry>
+      <box>
+        <size>25 25 0.1</size>
+      </box>
+    </geometry>
+  </collision>
+
+  <!-- 四面围墙调整为12.5米边界 -->
+  <visual name="north">
+    <pose>12.5 0 -2.5 0 -1.5708 0</pose> <!-- 北墙x=12.5米 -->
+    <geometry>
+      <plane>
+        <normal>0 0 1</normal>
+        <size>5 25</size> <!-- 高度5米，长度25米 -->
+      </plane>
+    </geometry>
+  </visual>
+
+  <visual name="south">
+    <pose>-12.5 0 -2.5 0 1.5708 0</pose> <!-- 南墙x=-12.5米 -->
+    <geometry>
+      <plane>
+        <normal>0 0 1</normal>
+        <size>5 25</size>
+      </plane>
+    </geometry>
+  </visual>
+
+  <visual name="west">
+    <pose>0 12.5 -2.5 1.5708 0 0</pose> <!-- 西墙y=12.5米 -->
+    <geometry>
+      <plane>
+        <normal>0 0 1</normal>
+        <size>25 5</size>
+      </plane>
+    </geometry>
+  </visual>
+
+  <visual name="east">
+    <pose>0 -12.5 -2.5 -1.5708 0 0</pose> <!-- 东墙y=-12.5米 -->
+    <geometry>
+      <plane>
+        <normal>0 0 1</normal>
+        <size>25 5</size>
+      </plane>
+    </geometry>
+  </visual>
+
+  </link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 优化后的障碍物配置 -->
+  <link name="additional_obstacles">
+    <!-- 西北角障碍物组 -->
+    <!-- 立方体 (3x3x6m) -->
+    <collision name="nw_cube_collision">
+      <pose>-8 8 -2 0 0 0.785</pose>
+      <geometry>
+        <box>
+          <size>2 2 6</size> <!-- 底部Z=-5，顶部Z=1 -->
+        </box>
+      </geometry>
+    </collision>
+    <visual name="nw_cube_visual">
+      <pose>-8 8 -2 0 0 0.785</pose>
+      <geometry>
+        <box>
+          <size>2 2 6</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.8 0.2 0.2 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 东北角圆柱体 (半径1.2m，高5m) -->
+    <collision name="ne_cyl_collision">
+      <pose>7 8 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.2</radius>
+          <length>6</length> <!-- 底部Z=-5，顶部Z=0 -->
+        </cylinder>
+      </geometry>
+    </collision>
+    <visual name="ne_cyl_visual">
+      <pose>7 8 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.2</radius>
+          <length>6</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.3 0.3 1 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 东北角圆柱体 (半径1.2m，高5m) -->
+    <collision name="3_collision">
+      <pose>8 7 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.2</radius>
+          <length>6</length> <!-- 底部Z=-5，顶部Z=0 -->
+        </cylinder>
+      </geometry>
+    </collision>
+    <visual name="3_visual">
+      <pose>8 7 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.2</radius>
+          <length>6</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.3 0.3 1 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 东南角复合障碍物 -->
+    <!-- 立方体 (2x2x6m) -->
+    <collision name="se_cube_collision">
+      <pose>9 -9 -2 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>2 2 6</size> <!-- 底部Z=-5，顶部Z=-1 -->
+        </box>
+      </geometry>
+    </collision>
+    <visual name="se_cube_visual">
+      <pose>9 -9 -2 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>2 2 6</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.9 0.4 0.4 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 立方体 (3x3x6m) -->
+    <collision name="4_collision">
+      <pose>-9 0 -2 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>3 3 6</size> <!-- 底部Z=-5，顶部Z=-1 -->
+        </box>
+      </geometry>
+    </collision>
+    <visual name="4_visual">
+      <pose>-9 0 -2 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>3 3 6</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.9 0.4 0.4 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 圆柱体 (半径0.8m，高5m) -->
+    <collision name="se_cyl_collision">
+      <pose>0 -10 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.8</radius>
+          <length>6</length> <!-- 底部Z=-5，顶部Z=0 -->
+        </cylinder>
+      </geometry>
+    </collision>
+    <visual name="se_cyl_visual">
+      <pose>0 -10 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.8</radius>
+          <length>6</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.4 0.4 0.9 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 圆柱体 (半径0.2m，高6m) -->
+    <collision name="1_collision">
+      <pose>0 10 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.2</radius>
+          <length>6</length> <!-- 底部Z=-5，顶部Z=0 -->
+        </cylinder>
+      </geometry>
+    </collision>
+    <visual name="1_visual">
+      <pose>0 10 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.2</radius>
+          <length>6</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.4 0.4 0.9 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 圆柱体 (半径1.5m，高6m) -->
+    <collision name="2_collision">
+      <pose>8 0 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.5</radius>
+          <length>6</length> <!-- 底部Z=-5，顶部Z=0 -->
+        </cylinder>
+      </geometry>
+    </collision>
+    <visual name="2_visual">
+      <pose>8 0 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.5</radius>
+          <length>6</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.4 0.4 0.9 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 西南角障碍物组 -->
+    <!-- 立方体 (2.5x2.5x5m) -->
+    <collision name="sw_cube_collision">
+      <pose>-8 -8 -2 0 0 0.785</pose>
+      <geometry>
+        <box>
+          <size>2.5 2.5 6</size> <!-- 底部Z=-5，顶部Z=0 -->
+        </box>
+      </geometry>
+    </collision>
+    <visual name="sw_cube_visual">
+      <pose>-8 -8 -2 0 0 0.785</pose>
+      <geometry>
+        <box>
+          <size>2.5 2.5 6</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.7 0.2 0.7 1</ambient>
+      </material>
+    </visual>
+
+    <!-- 圆柱体 (半径1m，高6m) -->
+    <collision name="sw_cyl_collision">
+      <pose>-8 -7 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.0</radius>
+          <length>6</length> <!-- 底部Z=-5，顶部Z=1 -->
+        </cylinder>
+      </geometry>
+    </collision>
+    <visual name="sw_cyl_visual">
+      <pose>-8 -7 -2 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>1.0</radius>
+          <length>6</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.5 0.5 1 1</ambient>
+      </material>
+    </visual>
+  </link>
+
+</model>
+</sdf>

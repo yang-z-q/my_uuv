@@ -43,19 +43,19 @@
 
     <!-- Virtual NED frame -->
     <include>
-      <uri>model://ned_frame</uri>
+      <uri>model://my_ned_frame</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
 
     <!-- 原海洋模型替换为 -->
     <include>
-      <uri>model://ocean</uri>
+      <uri>model://my_ocean</uri>
       <pose>0 0 -0.1 0 0 0</pose>
     </include>
 
     <!-- sea_bottom -->
     <include>
-      <uri>model://sea_bottom</uri>
+      <uri>model://my_sea_bottom</uri>
       <pose>0 0 -5 0 0 0</pose>
     </include>
 
