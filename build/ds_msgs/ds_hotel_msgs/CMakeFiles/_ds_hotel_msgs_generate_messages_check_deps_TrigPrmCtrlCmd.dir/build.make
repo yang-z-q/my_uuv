@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_TrigPrmCtrlCmd.dir/progress.make
 
 ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_TrigPrmCtrlCmd:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_hotel_msgs /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv ds_core_msgs/KeyString:ds_hotel_msgs/TriggerChannelConfig
+	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_hotel_msgs /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv ds_hotel_msgs/TriggerChannelConfig:ds_core_msgs/KeyString
 
 _ds_hotel_msgs_generate_messages_check_deps_TrigPrmCtrlCmd: ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_TrigPrmCtrlCmd
 _ds_hotel_msgs_generate_messages_check_deps_TrigPrmCtrlCmd: ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_TrigPrmCtrlCmd.dir/build.make

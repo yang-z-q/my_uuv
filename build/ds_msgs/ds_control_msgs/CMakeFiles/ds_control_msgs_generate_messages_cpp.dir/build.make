@@ -72,34 +72,34 @@ ds_msgs/ds_control_msgs/CMakeFiles/ds_control_msgs_generate_messages_cpp: /home/
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/BottomFollow1D.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/BottomFollow1D.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/BottomFollow1D.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/BottomFollow1D.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/BottomFollow1D.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/BottomFollow1D.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ds_control_msgs/BottomFollow1D.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegState.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ds_control_msgs/GoalLegState.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/GoalLegLatLon.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from ds_control_msgs/GoalLegLatLon.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/ExternalBottomFollowAlarm.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/ExternalBottomFollowAlarm.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/ExternalBottomFollowAlarm.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/ExternalBottomFollowAlarm.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/ExternalBottomFollowAlarm.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/ExternalBottomFollowAlarm.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from ds_control_msgs/ExternalBottomFollowAlarm.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -119,28 +119,28 @@ ds_msgs/ds_control_msgs/CMakeFiles/ds_control_msgs_generate_messages_cpp: /home/
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /opt/ros/noetic/share/control_msgs/msg/PidState.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControllerState.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from ds_control_msgs/RovControllerState.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/RovControlGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from ds_control_msgs/RovControlGoal.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/ActuatorInputs.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/ActuatorInputs.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/ActuatorInputs.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/ActuatorInputs.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/ActuatorInputs.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/ActuatorInputs.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from ds_control_msgs/ActuatorInputs.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -159,8 +159,8 @@ ds_msgs/ds_control_msgs/CMakeFiles/ds_control_msgs_generate_messages_cpp: /home/
 
 /home/yang/my_uuv/devel/include/ds_control_msgs/PidSettings.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/ds_control_msgs/PidSettings.h: /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg
-/home/yang/my_uuv/devel/include/ds_control_msgs/PidSettings.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/PidSettings.h: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
+/home/yang/my_uuv/devel/include/ds_control_msgs/PidSettings.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/include/ds_control_msgs/PidSettings.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from ds_control_msgs/PidSettings.msg"
 	cd /home/yang/my_uuv/src/ds_msgs/ds_control_msgs && /home/yang/my_uuv/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg -Ids_control_msgs:/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Icontrol_msgs:/opt/ros/noetic/share/control_msgs/cmake/../msg -Ids_nav_msgs:/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Itrajectory_msgs:/opt/ros/noetic/share/trajectory_msgs/cmake/../msg -p ds_control_msgs -o /home/yang/my_uuv/devel/include/ds_control_msgs -e /opt/ros/noetic/share/gencpp/cmake/..

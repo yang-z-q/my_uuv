@@ -19,12 +19,12 @@ add_custom_target(ds_multibeam_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg" NAME_WE)
 add_custom_target(_ds_multibeam_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_multibeam_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_multibeam_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg" NAME_WE)
 add_custom_target(_ds_multibeam_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_multibeam_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_multibeam_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamGrid.msg" NAME_WE)
@@ -44,7 +44,7 @@ add_custom_target(_ds_multibeam_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg" NAME_WE)
 add_custom_target(_ds_multibeam_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_multibeam_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_multibeam_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/srv/QueryCmd.srv" NAME_WE)
@@ -81,13 +81,13 @@ add_custom_target(_ds_multibeam_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_cpp(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_cpp(ds_multibeam_msgs
@@ -111,7 +111,7 @@ _generate_msg_cpp(ds_multibeam_msgs
 _generate_msg_cpp(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_multibeam_msgs
 )
 
@@ -194,13 +194,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_multibeam_msgs_generate_messages
 _generate_msg_eus(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_eus(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_eus(ds_multibeam_msgs
@@ -224,7 +224,7 @@ _generate_msg_eus(ds_multibeam_msgs
 _generate_msg_eus(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_multibeam_msgs
 )
 
@@ -307,13 +307,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_multibeam_msgs_generate_messages
 _generate_msg_lisp(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_lisp(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_lisp(ds_multibeam_msgs
@@ -337,7 +337,7 @@ _generate_msg_lisp(ds_multibeam_msgs
 _generate_msg_lisp(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_multibeam_msgs
 )
 
@@ -420,13 +420,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_multibeam_msgs_generate_messages
 _generate_msg_nodejs(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_nodejs(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_nodejs(ds_multibeam_msgs
@@ -450,7 +450,7 @@ _generate_msg_nodejs(ds_multibeam_msgs
 _generate_msg_nodejs(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_multibeam_msgs
 )
 
@@ -533,13 +533,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_multibeam_msgs_generate_messages
 _generate_msg_py(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/MultibeamRaw.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_py(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitMB.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_multibeam_msgs
 )
 _generate_msg_py(ds_multibeam_msgs
@@ -563,7 +563,7 @@ _generate_msg_py(ds_multibeam_msgs
 _generate_msg_py(ds_multibeam_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_multibeam_msgs/msg/NorbitWC.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_multibeam_msgs
 )
 

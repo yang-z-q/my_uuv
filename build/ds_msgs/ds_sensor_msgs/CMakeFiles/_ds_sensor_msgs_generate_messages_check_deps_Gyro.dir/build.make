@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Gyro.dir/progress.make
 
 ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Gyro:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_sensor_msgs /home/yang/my_uuv/src/ds_msgs/ds_sensor_msgs/msg/Gyro.msg ds_core_msgs/DsHeader:geometry_msgs/Quaternion:std_msgs/Header
+	cd /home/yang/my_uuv/build/ds_msgs/ds_sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_sensor_msgs /home/yang/my_uuv/src/ds_msgs/ds_sensor_msgs/msg/Gyro.msg std_msgs/Header:geometry_msgs/Quaternion:ds_core_msgs/DsHeader
 
 _ds_sensor_msgs_generate_messages_check_deps_Gyro: ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Gyro
 _ds_sensor_msgs_generate_messages_check_deps_Gyro: ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Gyro.dir/build.make

@@ -24,7 +24,7 @@ add_custom_target(_dave_gazebo_ros_plugins_generate_messages_check_deps_${_filen
 
 get_filename_component(_filename "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg" NAME_WE)
 add_custom_target(_dave_gazebo_ros_plugins_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dave_gazebo_ros_plugins" "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg" "geometry_msgs/Vector3:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dave_gazebo_ros_plugins" "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg" "std_msgs/Header:geometry_msgs/Vector3"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/srv/SetCurrentModel.srv" NAME_WE)
@@ -92,7 +92,7 @@ _generate_msg_cpp(dave_gazebo_ros_plugins
 _generate_msg_cpp(dave_gazebo_ros_plugins
   "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dave_gazebo_ros_plugins
 )
 
@@ -213,7 +213,7 @@ _generate_msg_eus(dave_gazebo_ros_plugins
 _generate_msg_eus(dave_gazebo_ros_plugins
   "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dave_gazebo_ros_plugins
 )
 
@@ -334,7 +334,7 @@ _generate_msg_lisp(dave_gazebo_ros_plugins
 _generate_msg_lisp(dave_gazebo_ros_plugins
   "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dave_gazebo_ros_plugins
 )
 
@@ -455,7 +455,7 @@ _generate_msg_nodejs(dave_gazebo_ros_plugins
 _generate_msg_nodejs(dave_gazebo_ros_plugins
   "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dave_gazebo_ros_plugins
 )
 
@@ -576,7 +576,7 @@ _generate_msg_py(dave_gazebo_ros_plugins
 _generate_msg_py(dave_gazebo_ros_plugins
   "/home/yang/my_uuv/src/dave/gazebo/dave_gazebo_ros_plugins/msg/StratifiedCurrentVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dave_gazebo_ros_plugins
 )
 

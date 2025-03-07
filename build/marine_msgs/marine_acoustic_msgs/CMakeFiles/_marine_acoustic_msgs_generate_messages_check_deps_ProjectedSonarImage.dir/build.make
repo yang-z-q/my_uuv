@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include marine_msgs/marine_acoustic_msgs/CMakeFiles/_marine_acoustic_msgs_generate_messages_check_deps_ProjectedSonarImage.dir/progress.make
 
 marine_msgs/marine_acoustic_msgs/CMakeFiles/_marine_acoustic_msgs_generate_messages_check_deps_ProjectedSonarImage:
-	cd /home/yang/my_uuv/build/marine_msgs/marine_acoustic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py marine_acoustic_msgs /home/yang/my_uuv/src/marine_msgs/marine_acoustic_msgs/msg/ProjectedSonarImage.msg geometry_msgs/Vector3:marine_acoustic_msgs/SonarImageData:std_msgs/Header:marine_acoustic_msgs/PingInfo
+	cd /home/yang/my_uuv/build/marine_msgs/marine_acoustic_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py marine_acoustic_msgs /home/yang/my_uuv/src/marine_msgs/marine_acoustic_msgs/msg/ProjectedSonarImage.msg std_msgs/Header:geometry_msgs/Vector3:marine_acoustic_msgs/PingInfo:marine_acoustic_msgs/SonarImageData
 
 _marine_acoustic_msgs_generate_messages_check_deps_ProjectedSonarImage: marine_msgs/marine_acoustic_msgs/CMakeFiles/_marine_acoustic_msgs_generate_messages_check_deps_ProjectedSonarImage
 _marine_acoustic_msgs_generate_messages_check_deps_ProjectedSonarImage: marine_msgs/marine_acoustic_msgs/CMakeFiles/_marine_acoustic_msgs_generate_messages_check_deps_ProjectedSonarImage.dir/build.make

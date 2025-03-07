@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_PhinsStatus.dir/progress.make
 
 ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_PhinsStatus:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_sensor_msgs /home/yang/my_uuv/src/ds_msgs/ds_sensor_msgs/msg/PhinsStatus.msg std_msgs/Header:ds_nmea_msgs/PixseHtsts:ds_core_msgs/DsHeader:ds_nmea_msgs/PixseStatus:ds_nmea_msgs/PixseAlgsts
+	cd /home/yang/my_uuv/build/ds_msgs/ds_sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_sensor_msgs /home/yang/my_uuv/src/ds_msgs/ds_sensor_msgs/msg/PhinsStatus.msg ds_core_msgs/DsHeader:ds_nmea_msgs/PixseAlgsts:std_msgs/Header:ds_nmea_msgs/PixseHtsts:ds_nmea_msgs/PixseStatus
 
 _ds_sensor_msgs_generate_messages_check_deps_PhinsStatus: ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_PhinsStatus
 _ds_sensor_msgs_generate_messages_check_deps_PhinsStatus: ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_PhinsStatus.dir/build.make

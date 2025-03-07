@@ -26,21 +26,28 @@
         <arg name="use_ned_frame" value="$(arg use_ned_frame)"/>
     </include>
 
+    <!-- Start RViz  -->
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find uuv_gazebo)/rviz/controller_demo.rviz"/>
+
+
     <!-- Add the RexROV vehicle to the world  -->
-    <include file="$(find uuv_descriptions)/launch/upload_rexrov_test1.launch">
+    <!-- <include file="$(find uuv_descriptions)/launch/upload_rexrov_test1.launch">
         <arg name="x" default="$(arg x1)"/>
         <arg name="y" default="$(arg y1)"/>
         <arg name="z" default="$(arg z1)"/>
         <arg name="yaw" default="$(arg yaw1)"/>
         <arg name="use_ned_frame" value="$(arg use_ned_frame)"/>
-    </include>
+    </include> -->
+
+    <!-- Start RViz  -->
+    <!-- <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find uuv_gazebo)/rviz/2rov.rviz"/> -->
 
     <!-- Start the PID controller with its default parameters for the RexROV vehicle  -->
-    <!-- <include file="$(find uuv_trajectory_control)/launch/rov_pid_controller.launch">
+    <include file="$(find uuv_trajectory_control)/launch/rov_pid_controller.launch">
         <arg name="uuv_name" value="rexrov"/>
         <arg name="model_name" value="rexrov"/>
         <arg name="use_ned_frame" value="$(arg use_ned_frame)"/>
-    </include> -->
+    </include>
 
     <!-- Initialize the recording fo the simulation according to the record flag  -->
     <include file="$(find uuv_gazebo)/launch/controller_demos/record_demo.launch">
@@ -48,8 +55,6 @@
       <arg name="use_ned_frame" value="$(arg use_ned_frame)"/>
     </include>
 
-    <!-- Start RViz  -->
-    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find uuv_gazebo)/rviz/2rov.rviz"/>
 
     <!-- 键盘控制 -->
     <!-- <include file="$(find uuv_teleop)/launch/uuv_keyboard.launch">

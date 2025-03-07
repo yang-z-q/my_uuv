@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Compass.dir/progress.make
 
 ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Compass:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_sensor_msgs /home/yang/my_uuv/src/ds_msgs/ds_sensor_msgs/msg/Compass.msg ds_core_msgs/DsHeader:std_msgs/Header
+	cd /home/yang/my_uuv/build/ds_msgs/ds_sensor_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_sensor_msgs /home/yang/my_uuv/src/ds_msgs/ds_sensor_msgs/msg/Compass.msg std_msgs/Header:ds_core_msgs/DsHeader
 
 _ds_sensor_msgs_generate_messages_check_deps_Compass: ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Compass
 _ds_sensor_msgs_generate_messages_check_deps_Compass: ds_msgs/ds_sensor_msgs/CMakeFiles/_ds_sensor_msgs_generate_messages_check_deps_Compass.dir/build.make

@@ -59,8 +59,8 @@ uuv_simulator/uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_a
 
 /home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg/AUVCommand.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg/AUVCommand.l: /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_auv_control_allocator/msg/AUVCommand.msg
-/home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg/AUVCommand.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg/AUVCommand.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg/AUVCommand.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg/AUVCommand.l: /opt/ros/noetic/share/geometry_msgs/msg/Wrench.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from uuv_auv_control_allocator/AUVCommand.msg"
 	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_auv_control_allocator && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_auv_control_allocator/msg/AUVCommand.msg -Iuuv_auv_control_allocator:/home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_auv_control_allocator/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p uuv_auv_control_allocator -o /home/yang/my_uuv/devel/share/roseus/ros/uuv_auv_control_allocator/msg

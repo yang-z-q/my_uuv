@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_DeadReck.dir/progress.make
 
 ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_DeadReck:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_nav_msgs /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/DeadReck.msg std_msgs/Header:geometry_msgs/Vector3:ds_core_msgs/DsHeader
+	cd /home/yang/my_uuv/build/ds_msgs/ds_nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_nav_msgs /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/DeadReck.msg ds_core_msgs/DsHeader:geometry_msgs/Vector3:std_msgs/Header
 
 _ds_nav_msgs_generate_messages_check_deps_DeadReck: ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_DeadReck
 _ds_nav_msgs_generate_messages_check_deps_DeadReck: ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_DeadReck.dir/build.make

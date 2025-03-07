@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_control_msgs/CMakeFiles/_ds_control_msgs_generate_messages_check_deps_RovControlGoal.dir/progress.make
 
 ds_msgs/ds_control_msgs/CMakeFiles/_ds_control_msgs_generate_messages_check_deps_RovControlGoal:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_control_msgs /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg ds_nav_msgs/AggregatedState:std_msgs/Header:ds_core_msgs/DsHeader:ds_nav_msgs/FlaggedDouble
+	cd /home/yang/my_uuv/build/ds_msgs/ds_control_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_control_msgs /home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg ds_core_msgs/DsHeader:std_msgs/Header:ds_nav_msgs/FlaggedDouble:ds_nav_msgs/AggregatedState
 
 _ds_control_msgs_generate_messages_check_deps_RovControlGoal: ds_msgs/ds_control_msgs/CMakeFiles/_ds_control_msgs_generate_messages_check_deps_RovControlGoal
 _ds_control_msgs_generate_messages_check_deps_RovControlGoal: ds_msgs/ds_control_msgs/CMakeFiles/_ds_control_msgs_generate_messages_check_deps_RovControlGoal.dir/build.make

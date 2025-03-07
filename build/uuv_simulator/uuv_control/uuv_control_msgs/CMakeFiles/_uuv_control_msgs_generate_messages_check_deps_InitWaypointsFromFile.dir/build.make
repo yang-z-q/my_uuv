@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_InitWaypointsFromFile.dir/progress.make
 
 uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_InitWaypointsFromFile:
-	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv std_msgs/Time:std_msgs/String
+	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/srv/InitWaypointsFromFile.srv std_msgs/String:std_msgs/Time
 
 _uuv_control_msgs_generate_messages_check_deps_InitWaypointsFromFile: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_InitWaypointsFromFile
 _uuv_control_msgs_generate_messages_check_deps_InitWaypointsFromFile: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_InitWaypointsFromFile.dir/build.make

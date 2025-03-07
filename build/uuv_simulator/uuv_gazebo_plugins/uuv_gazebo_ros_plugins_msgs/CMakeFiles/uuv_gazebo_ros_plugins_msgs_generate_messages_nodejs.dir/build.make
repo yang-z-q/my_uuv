@@ -113,9 +113,9 @@ uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gaze
 
 /home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.js: /home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv
+/home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.js: /opt/ros/noetic/share/geometry_msgs/msg/Inertia.msg
 /home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.js: /home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg
-/home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from uuv_gazebo_ros_plugins_msgs/GetModelProperties.srv"
 	cd /home/yang/my_uuv/build/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv -Iuuv_gazebo_ros_plugins_msgs:/home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p uuv_gazebo_ros_plugins_msgs -o /home/yang/my_uuv/devel/share/gennodejs/ros/uuv_gazebo_ros_plugins_msgs/srv
 

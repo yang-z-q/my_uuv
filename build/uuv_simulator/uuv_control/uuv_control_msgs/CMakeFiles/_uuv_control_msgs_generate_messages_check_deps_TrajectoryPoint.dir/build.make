@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_TrajectoryPoint.dir/progress.make
 
 uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_TrajectoryPoint:
-	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Vector3:geometry_msgs/Accel:geometry_msgs/Twist:std_msgs/Header:geometry_msgs/Quaternion
+	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/msg/TrajectoryPoint.msg geometry_msgs/Vector3:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Accel:geometry_msgs/Twist:std_msgs/Header
 
 _uuv_control_msgs_generate_messages_check_deps_TrajectoryPoint: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_TrajectoryPoint
 _uuv_control_msgs_generate_messages_check_deps_TrajectoryPoint: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_TrajectoryPoint.dir/build.make

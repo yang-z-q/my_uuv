@@ -93,9 +93,9 @@ ds_msgs/ds_mx_msgs/CMakeFiles/ds_mx_msgs_generate_messages_py: /home/yang/my_uuv
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxMissionStatus.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxTaskStatus.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg/_MxMissionStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxTaskStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG ds_mx_msgs/MxMissionStatus"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_mx_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxMissionStatus.msg -Ids_mx_msgs:/home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ds_mx_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/msg
 
@@ -121,9 +121,9 @@ ds_msgs/ds_mx_msgs/CMakeFiles/ds_mx_msgs_generate_messages_py: /home/yang/my_uuv
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/srv/MxUpdateSharedParams.srv
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxSharedParams.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv/_MxUpdateSharedParams.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV ds_mx_msgs/MxUpdateSharedParams"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_mx_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/srv/MxUpdateSharedParams.srv -Ids_mx_msgs:/home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p ds_mx_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_mx_msgs/srv
 

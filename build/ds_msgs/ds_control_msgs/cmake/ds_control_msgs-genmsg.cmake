@@ -19,22 +19,22 @@ add_custom_target(ds_control_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg" "std_msgs/Header:geometry_msgs/Point:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg" "ds_core_msgs/DsHeader:std_msgs/Header:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg" "std_msgs/Header:ds_nav_msgs/LatLon:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg" "ds_core_msgs/DsHeader:std_msgs/Header:ds_nav_msgs/LatLon"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowTimedOverride.msg" NAME_WE)
@@ -49,17 +49,17 @@ add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg" "control_msgs/PidState:ds_control_msgs/RovAutoState:std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg" "ds_core_msgs/DsHeader:std_msgs/Header:control_msgs/PidState:ds_control_msgs/RovAutoState"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg" "ds_nav_msgs/AggregatedState:std_msgs/Header:ds_core_msgs/DsHeader:ds_nav_msgs/FlaggedDouble"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg" "ds_core_msgs/DsHeader:std_msgs/Header:ds_nav_msgs/FlaggedDouble:ds_nav_msgs/AggregatedState"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ControllerEnum.msg" NAME_WE)
@@ -74,7 +74,7 @@ add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg" NAME_WE)
 add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_control_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAllocationEnum.msg" NAME_WE)
@@ -101,25 +101,25 @@ add_custom_target(_ds_control_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
@@ -137,19 +137,19 @@ _generate_msg_cpp(ds_control_msgs
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
@@ -167,7 +167,7 @@ _generate_msg_cpp(ds_control_msgs
 _generate_msg_cpp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_cpp(ds_control_msgs
@@ -246,25 +246,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_control_msgs_generate_messages_c
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
@@ -282,19 +282,19 @@ _generate_msg_eus(ds_control_msgs
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
@@ -312,7 +312,7 @@ _generate_msg_eus(ds_control_msgs
 _generate_msg_eus(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_eus(ds_control_msgs
@@ -391,25 +391,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_control_msgs_generate_messages_e
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
@@ -427,19 +427,19 @@ _generate_msg_lisp(ds_control_msgs
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
@@ -457,7 +457,7 @@ _generate_msg_lisp(ds_control_msgs
 _generate_msg_lisp(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_lisp(ds_control_msgs
@@ -536,25 +536,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_control_msgs_generate_messages_l
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
@@ -572,19 +572,19 @@ _generate_msg_nodejs(ds_control_msgs
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
@@ -602,7 +602,7 @@ _generate_msg_nodejs(ds_control_msgs
 _generate_msg_nodejs(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_nodejs(ds_control_msgs
@@ -681,25 +681,25 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_control_msgs_generate_messages_n
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/BottomFollow1D.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/GoalLegLatLon.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/LatLon.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ExternalBottomFollowAlarm.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
@@ -717,19 +717,19 @@ _generate_msg_py(ds_control_msgs
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControllerState.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/control_msgs/cmake/../msg/PidState.msg;/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovAutoState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/RovControlGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/FlaggedDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/ActuatorInputs.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs
@@ -747,7 +747,7 @@ _generate_msg_py(ds_control_msgs
 _generate_msg_py(ds_control_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_control_msgs/msg/PidSettings.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_control_msgs
 )
 _generate_msg_py(ds_control_msgs

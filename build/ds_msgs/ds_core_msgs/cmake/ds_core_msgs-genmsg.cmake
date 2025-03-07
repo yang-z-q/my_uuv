@@ -64,7 +64,7 @@ add_custom_target(_ds_core_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg" NAME_WE)
 add_custom_target(_ds_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_core_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg" "ds_core_msgs/KeyString:ds_core_msgs/KeyDouble:ds_core_msgs/KeyBool:ds_core_msgs/KeyFloat:ds_core_msgs/KeyInt"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_core_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg" "ds_core_msgs/KeyInt:ds_core_msgs/KeyDouble:ds_core_msgs/KeyFloat:ds_core_msgs/KeyString:ds_core_msgs/KeyBool"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/Status.msg" NAME_WE)
@@ -74,7 +74,7 @@ add_custom_target(_ds_core_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg" NAME_WE)
 add_custom_target(_ds_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_core_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_core_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ByteSequence.msg" NAME_WE)
@@ -119,7 +119,7 @@ add_custom_target(_ds_core_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg" NAME_WE)
 add_custom_target(_ds_core_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_core_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_core_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/srv/VoidCmd.srv" NAME_WE)
@@ -200,7 +200,7 @@ _generate_msg_cpp(ds_core_msgs
 _generate_msg_cpp(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_cpp(ds_core_msgs
@@ -212,7 +212,7 @@ _generate_msg_cpp(ds_core_msgs
 _generate_msg_cpp(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_cpp(ds_core_msgs
@@ -266,7 +266,7 @@ _generate_msg_cpp(ds_core_msgs
 _generate_msg_cpp(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_core_msgs
 )
 
@@ -417,7 +417,7 @@ _generate_msg_eus(ds_core_msgs
 _generate_msg_eus(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_eus(ds_core_msgs
@@ -429,7 +429,7 @@ _generate_msg_eus(ds_core_msgs
 _generate_msg_eus(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_eus(ds_core_msgs
@@ -483,7 +483,7 @@ _generate_msg_eus(ds_core_msgs
 _generate_msg_eus(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_core_msgs
 )
 
@@ -634,7 +634,7 @@ _generate_msg_lisp(ds_core_msgs
 _generate_msg_lisp(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_lisp(ds_core_msgs
@@ -646,7 +646,7 @@ _generate_msg_lisp(ds_core_msgs
 _generate_msg_lisp(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_lisp(ds_core_msgs
@@ -700,7 +700,7 @@ _generate_msg_lisp(ds_core_msgs
 _generate_msg_lisp(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_core_msgs
 )
 
@@ -851,7 +851,7 @@ _generate_msg_nodejs(ds_core_msgs
 _generate_msg_nodejs(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_nodejs(ds_core_msgs
@@ -863,7 +863,7 @@ _generate_msg_nodejs(ds_core_msgs
 _generate_msg_nodejs(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_nodejs(ds_core_msgs
@@ -917,7 +917,7 @@ _generate_msg_nodejs(ds_core_msgs
 _generate_msg_nodejs(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_core_msgs
 )
 
@@ -1068,7 +1068,7 @@ _generate_msg_py(ds_core_msgs
 _generate_msg_py(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ParamUpdate.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyInt.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyDouble.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyFloat.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyBool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_py(ds_core_msgs
@@ -1080,7 +1080,7 @@ _generate_msg_py(ds_core_msgs
 _generate_msg_py(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/RawData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_core_msgs
 )
 _generate_msg_py(ds_core_msgs
@@ -1134,7 +1134,7 @@ _generate_msg_py(ds_core_msgs
 _generate_msg_py(ds_core_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_core_msgs
 )
 

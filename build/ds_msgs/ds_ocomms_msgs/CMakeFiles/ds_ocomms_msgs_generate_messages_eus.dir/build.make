@@ -68,36 +68,36 @@ ds_msgs/ds_ocomms_msgs/CMakeFiles/ds_ocomms_msgs_generate_messages_eus: /home/ya
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EmitterStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EmitterStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EmitterStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EmitterStatus.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EmitterStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ds_ocomms_msgs/EmitterStatus.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_ocomms_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg -Ids_ocomms_msgs:/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ds_ocomms_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EnvStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EnvStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EnvStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EnvStatus.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/EnvStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ds_ocomms_msgs/EnvStatus.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_ocomms_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg -Ids_ocomms_msgs:/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ds_ocomms_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemSettings.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemSettings.l: /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemSettings.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemSettings.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemSettings.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ds_ocomms_msgs/ModemSettings.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_ocomms_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg -Ids_ocomms_msgs:/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ds_ocomms_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemStatus.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/ModemStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from ds_ocomms_msgs/ModemStatus.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_ocomms_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg -Ids_ocomms_msgs:/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ds_ocomms_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/XfrStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/XfrStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/XfrStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/XfrStatus.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg/XfrStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from ds_ocomms_msgs/XfrStatus.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_ocomms_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg -Ids_ocomms_msgs:/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ds_ocomms_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_ocomms_msgs/msg
 

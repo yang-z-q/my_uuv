@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_PwrSwitchDeviceStatus.dir/progress.make
 
 ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_PwrSwitchDeviceStatus:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_hotel_msgs /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg ds_core_msgs/DsHeader:std_msgs/Header
+	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_hotel_msgs /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg std_msgs/Header:ds_core_msgs/DsHeader
 
 _ds_hotel_msgs_generate_messages_check_deps_PwrSwitchDeviceStatus: ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_PwrSwitchDeviceStatus
 _ds_hotel_msgs_generate_messages_check_deps_PwrSwitchDeviceStatus: ds_msgs/ds_hotel_msgs/CMakeFiles/_ds_hotel_msgs_generate_messages_check_deps_PwrSwitchDeviceStatus.dir/build.make

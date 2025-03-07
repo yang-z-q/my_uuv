@@ -84,52 +84,52 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_eus: /home/yang
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Charge.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Charge.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Charge.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Charge.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Charge.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ds_hotel_msgs/Charge.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PowerSupply.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PowerSupply.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PowerSupply.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PowerSupply.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PowerSupply.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ds_hotel_msgs/PowerSupply.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTP.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTP.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTP.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTP.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTP.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from ds_hotel_msgs/HTP.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/HTPGL.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from ds_hotel_msgs/HTPGL.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/BatMan.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/BatMan.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/BatMan.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/BatMan.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/BatMan.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from ds_hotel_msgs/BatMan.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Battery.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Battery.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Battery.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Battery.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/Battery.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from ds_hotel_msgs/Battery.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/ClioBattery.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from ds_hotel_msgs/ClioBattery.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
@@ -145,17 +145,17 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_eus: /home/yang
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PWR.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from ds_hotel_msgs/PWR.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitch.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from ds_hotel_msgs/PwrSwitch.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
@@ -166,8 +166,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_eus: /home/yang
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp code from ds_hotel_msgs/PwrSwitchDeviceStatus.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
@@ -179,15 +179,15 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_eus: /home/yang
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from ds_hotel_msgs/PwrSwitchDeviceCmd.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/XR.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/XR.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/XR.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/XR.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/XR.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating EusLisp code from ds_hotel_msgs/XR.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
@@ -198,8 +198,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_eus: /home/yang
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/A2D2.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/A2D2.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/A2D2.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/A2D2.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg/A2D2.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp code from ds_hotel_msgs/A2D2.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/msg
 
@@ -240,8 +240,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_eus: /home/yang
 
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv
-/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg
+/home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.l: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating EusLisp code from ds_hotel_msgs/TrigPrmCtrlCmd.srv"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/roseus/ros/ds_hotel_msgs/srv
 

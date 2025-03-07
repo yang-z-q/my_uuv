@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_GoTo.dir/progress.make
 
 uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_GoTo:
-	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoTo.srv uuv_control_msgs/Waypoint:std_msgs/Header:geometry_msgs/Point
+	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/srv/GoTo.srv uuv_control_msgs/Waypoint:geometry_msgs/Point:std_msgs/Header
 
 _uuv_control_msgs_generate_messages_check_deps_GoTo: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_GoTo
 _uuv_control_msgs_generate_messages_check_deps_GoTo: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_GoTo.dir/build.make

@@ -97,6 +97,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/uuv_trajectory_control" TYPE PROGRAM FILES "/home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_trajectory_control/catkin_generated/installspace/path_publisher.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/uuv_trajectory_control" TYPE DIRECTORY FILES
     "/home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_trajectory_control/launch"
     "/home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_trajectory_control/config"

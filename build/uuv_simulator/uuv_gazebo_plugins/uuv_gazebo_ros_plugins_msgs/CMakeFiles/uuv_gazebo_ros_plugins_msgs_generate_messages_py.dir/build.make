@@ -115,9 +115,9 @@ uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gaze
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py: /home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv
+/home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Inertia.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py: /home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetModelProperties"
 	cd /home/yang/my_uuv/build/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv -Iuuv_gazebo_ros_plugins_msgs:/home/yang/my_uuv/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p uuv_gazebo_ros_plugins_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv
 

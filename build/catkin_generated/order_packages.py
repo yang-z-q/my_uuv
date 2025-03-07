@@ -2,4 +2,4 @@
 source_root_dir = '/home/yang/my_uuv/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/yang/my_uuv/devel;/opt/ros/noetic'.split(';') if '/home/yang/my_uuv/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/home/yang/uuv_ws/devel;/home/yang/my_uuv/devel;/opt/ros/noetic'.split(';') if '/home/yang/uuv_ws/devel;/home/yang/my_uuv/devel;/opt/ros/noetic' != '' else []

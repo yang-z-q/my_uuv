@@ -58,8 +58,8 @@ uuv_simulator/uuv_control/uuv_auv_control_allocator/CMakeFiles/uuv_auv_control_a
 
 /home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_auv_control_allocator/msg/AUVCommand.msg
-/home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /opt/ros/noetic/share/geometry_msgs/msg/Wrench.msg
 /home/yang/my_uuv/devel/include/uuv_auv_control_allocator/AUVCommand.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from uuv_auv_control_allocator/AUVCommand.msg"

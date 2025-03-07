@@ -85,52 +85,52 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_py: /home/yang/
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Charge.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Charge.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Charge.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Charge.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Charge.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ds_hotel_msgs/Charge"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PowerSupply.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PowerSupply.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PowerSupply.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PowerSupply.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PowerSupply.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG ds_hotel_msgs/PowerSupply"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTP.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTP.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTP.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTP.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTP.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG ds_hotel_msgs/HTP"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_HTPGL.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python from MSG ds_hotel_msgs/HTPGL"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_BatMan.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_BatMan.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_BatMan.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_BatMan.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_BatMan.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python from MSG ds_hotel_msgs/BatMan"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Battery.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Battery.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Battery.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Battery.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_Battery.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python from MSG ds_hotel_msgs/Battery"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_ClioBattery.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python from MSG ds_hotel_msgs/ClioBattery"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
@@ -146,17 +146,17 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_py: /home/yang/
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PWR.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python from MSG ds_hotel_msgs/PWR"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitch.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python from MSG ds_hotel_msgs/PwrSwitch"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
@@ -167,8 +167,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_py: /home/yang/
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceStatus.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceStatus.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceStatus.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Python from MSG ds_hotel_msgs/PwrSwitchDeviceStatus"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
@@ -180,15 +180,15 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_py: /home/yang/
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceCmd.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceCmd.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_PwrSwitchDeviceCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Python from MSG ds_hotel_msgs/PwrSwitchDeviceCmd"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_XR.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_XR.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_XR.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_XR.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_XR.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Python from MSG ds_hotel_msgs/XR"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
@@ -199,8 +199,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_py: /home/yang/
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_A2D2.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_A2D2.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_A2D2.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_A2D2.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg/_A2D2.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Python from MSG ds_hotel_msgs/A2D2"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/msg
 
@@ -241,8 +241,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_py: /home/yang/
 
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/srv/_TrigPrmCtrlCmd.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/srv/_TrigPrmCtrlCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv
-/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/srv/_TrigPrmCtrlCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/srv/_TrigPrmCtrlCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg
+/home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/srv/_TrigPrmCtrlCmd.py: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Python code from SRV ds_hotel_msgs/TrigPrmCtrlCmd"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/lib/python3/dist-packages/ds_hotel_msgs/srv
 

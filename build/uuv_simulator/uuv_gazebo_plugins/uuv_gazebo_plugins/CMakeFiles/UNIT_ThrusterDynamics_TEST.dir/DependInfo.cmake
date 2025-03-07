@@ -31,7 +31,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"
-  "/usr/include/sdformat-9.8"
+  "/usr/include/sdformat-9.10"
   "/usr/include/OGRE"
   "/usr/include/OGRE/Terrain"
   "/usr/include/OGRE/Paging"
@@ -46,7 +46,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/src/googletest/googletest/include"
   "/usr/src/googletest/googletest"
   "/opt/ros/noetic/include"
-  "/usr/include/sdformat-9.8/sdf/.."
+  "/usr/include/sdformat-9.10/sdf/.."
   "/usr/include/ignition/cmake2"
   "/usr/include/uuid"
   )

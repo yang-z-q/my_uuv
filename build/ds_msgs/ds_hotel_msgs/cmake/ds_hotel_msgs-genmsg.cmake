@@ -19,37 +19,37 @@ add_custom_target(ds_hotel_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg" "ds_core_msgs/DsHeader:std_msgs/Header:ds_hotel_msgs/HTP"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg" "ds_hotel_msgs/HTP:std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg" "ds_core_msgs/DsHeader:std_msgs/Header:ds_hotel_msgs/ClioBatteryPack"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg" "ds_hotel_msgs/ClioBatteryPack:std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg" NAME_WE)
@@ -64,12 +64,12 @@ add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg" "ds_core_msgs/DsHeader:std_msgs/Header:ds_hotel_msgs/PWRdevice"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg" "ds_hotel_msgs/PWRdevice:std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg" "ds_core_msgs/DsHeader:std_msgs/Header:ds_hotel_msgs/PwrSwitchDevices"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg" "ds_hotel_msgs/PwrSwitchDevices:std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg" NAME_WE)
@@ -79,7 +79,7 @@ add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg" NAME_WE)
@@ -89,12 +89,12 @@ add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XrSimState.msg" NAME_WE)
@@ -104,7 +104,7 @@ add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/AbortCmd.srv" NAME_WE)
@@ -144,7 +144,7 @@ add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv" NAME_WE)
 add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv" "ds_core_msgs/KeyString:ds_hotel_msgs/TriggerChannelConfig"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_hotel_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv" "ds_hotel_msgs/TriggerChannelConfig:ds_core_msgs/KeyString"
 )
 
 #
@@ -156,43 +156,43 @@ add_custom_target(_ds_hotel_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
@@ -210,13 +210,13 @@ _generate_msg_cpp(ds_hotel_msgs
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
@@ -228,7 +228,7 @@ _generate_msg_cpp(ds_hotel_msgs
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
@@ -240,13 +240,13 @@ _generate_msg_cpp(ds_hotel_msgs
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_cpp(ds_hotel_msgs
@@ -258,7 +258,7 @@ _generate_msg_cpp(ds_hotel_msgs
 _generate_msg_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -308,7 +308,7 @@ _generate_srv_cpp(ds_hotel_msgs
 _generate_srv_cpp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -389,43 +389,43 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_hotel_msgs_generate_messages_cpp
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
@@ -443,13 +443,13 @@ _generate_msg_eus(ds_hotel_msgs
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
@@ -461,7 +461,7 @@ _generate_msg_eus(ds_hotel_msgs
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
@@ -473,13 +473,13 @@ _generate_msg_eus(ds_hotel_msgs
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_eus(ds_hotel_msgs
@@ -491,7 +491,7 @@ _generate_msg_eus(ds_hotel_msgs
 _generate_msg_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -541,7 +541,7 @@ _generate_srv_eus(ds_hotel_msgs
 _generate_srv_eus(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -622,43 +622,43 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_hotel_msgs_generate_messages_eus
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
@@ -676,13 +676,13 @@ _generate_msg_lisp(ds_hotel_msgs
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
@@ -694,7 +694,7 @@ _generate_msg_lisp(ds_hotel_msgs
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
@@ -706,13 +706,13 @@ _generate_msg_lisp(ds_hotel_msgs
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_lisp(ds_hotel_msgs
@@ -724,7 +724,7 @@ _generate_msg_lisp(ds_hotel_msgs
 _generate_msg_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -774,7 +774,7 @@ _generate_srv_lisp(ds_hotel_msgs
 _generate_srv_lisp(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -855,43 +855,43 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_hotel_msgs_generate_messages_lis
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
@@ -909,13 +909,13 @@ _generate_msg_nodejs(ds_hotel_msgs
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
@@ -927,7 +927,7 @@ _generate_msg_nodejs(ds_hotel_msgs
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
@@ -939,13 +939,13 @@ _generate_msg_nodejs(ds_hotel_msgs
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_nodejs(ds_hotel_msgs
@@ -957,7 +957,7 @@ _generate_msg_nodejs(ds_hotel_msgs
 _generate_msg_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -1007,7 +1007,7 @@ _generate_srv_nodejs(ds_hotel_msgs
 _generate_srv_nodejs(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -1088,43 +1088,43 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_hotel_msgs_generate_messages_nod
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
@@ -1142,13 +1142,13 @@ _generate_msg_py(ds_hotel_msgs
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
@@ -1160,7 +1160,7 @@ _generate_msg_py(ds_hotel_msgs
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
@@ -1172,13 +1172,13 @@ _generate_msg_py(ds_hotel_msgs
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 _generate_msg_py(ds_hotel_msgs
@@ -1190,7 +1190,7 @@ _generate_msg_py(ds_hotel_msgs
 _generate_msg_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 
@@ -1240,7 +1240,7 @@ _generate_srv_py(ds_hotel_msgs
 _generate_srv_py(ds_hotel_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg;/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg"
+  "/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_hotel_msgs
 )
 

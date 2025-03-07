@@ -19,27 +19,27 @@ add_custom_target(ds_ocomms_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg" NAME_WE)
 add_custom_target(_ds_ocomms_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg" NAME_WE)
 add_custom_target(_ds_ocomms_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg" NAME_WE)
 add_custom_target(_ds_ocomms_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg" NAME_WE)
 add_custom_target(_ds_ocomms_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg" NAME_WE)
 add_custom_target(_ds_ocomms_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg" "ds_core_msgs/DsHeader:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ds_ocomms_msgs" "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg" "std_msgs/Header:ds_core_msgs/DsHeader"
 )
 
 get_filename_component(_filename "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/srv/PingCmd.srv" NAME_WE)
@@ -76,31 +76,31 @@ add_custom_target(_ds_ocomms_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_cpp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_cpp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_cpp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_cpp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ds_ocomms_msgs
 )
 
@@ -181,31 +181,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_ocomms_msgs_generate_messages_cp
 _generate_msg_eus(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_eus(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_eus(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_eus(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_eus(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ds_ocomms_msgs
 )
 
@@ -286,31 +286,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_ocomms_msgs_generate_messages_eu
 _generate_msg_lisp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_lisp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_lisp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_lisp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_lisp(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ds_ocomms_msgs
 )
 
@@ -391,31 +391,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_ocomms_msgs_generate_messages_li
 _generate_msg_nodejs(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_nodejs(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_nodejs(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_nodejs(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_nodejs(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ds_ocomms_msgs
 )
 
@@ -496,31 +496,31 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS ds_ocomms_msgs_generate_messages_no
 _generate_msg_py(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EmitterStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_py(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/EnvStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_py(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemSettings.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_py(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/ModemStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_ocomms_msgs
 )
 _generate_msg_py(ds_ocomms_msgs
   "/home/yang/my_uuv/src/ds_msgs/ds_ocomms_msgs/msg/XfrStatus.msg"
   "${MSG_I_FLAGS}"
-  "/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ds_ocomms_msgs
 )
 

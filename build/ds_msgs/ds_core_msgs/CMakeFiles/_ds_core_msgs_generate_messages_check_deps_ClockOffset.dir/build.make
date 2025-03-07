@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_core_msgs/CMakeFiles/_ds_core_msgs_generate_messages_check_deps_ClockOffset.dir/progress.make
 
 ds_msgs/ds_core_msgs/CMakeFiles/_ds_core_msgs_generate_messages_check_deps_ClockOffset:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_core_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_core_msgs /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg std_msgs/Header:ds_core_msgs/DsHeader
+	cd /home/yang/my_uuv/build/ds_msgs/ds_core_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_core_msgs /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/ClockOffset.msg ds_core_msgs/DsHeader:std_msgs/Header
 
 _ds_core_msgs_generate_messages_check_deps_ClockOffset: ds_msgs/ds_core_msgs/CMakeFiles/_ds_core_msgs_generate_messages_check_deps_ClockOffset
 _ds_core_msgs_generate_messages_check_deps_ClockOffset: ds_msgs/ds_core_msgs/CMakeFiles/_ds_core_msgs_generate_messages_check_deps_ClockOffset.dir/build.make

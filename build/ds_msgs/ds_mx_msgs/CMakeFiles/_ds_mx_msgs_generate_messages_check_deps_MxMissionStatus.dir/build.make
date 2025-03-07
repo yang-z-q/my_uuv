@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_mx_msgs/CMakeFiles/_ds_mx_msgs_generate_messages_check_deps_MxMissionStatus.dir/progress.make
 
 ds_msgs/ds_mx_msgs/CMakeFiles/_ds_mx_msgs_generate_messages_check_deps_MxMissionStatus:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_mx_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_mx_msgs /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxMissionStatus.msg ds_core_msgs/DsHeader:ds_mx_msgs/MxTaskStatus:ds_core_msgs/KeyString:std_msgs/Header
+	cd /home/yang/my_uuv/build/ds_msgs/ds_mx_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_mx_msgs /home/yang/my_uuv/src/ds_msgs/ds_mx_msgs/msg/MxMissionStatus.msg ds_core_msgs/DsHeader:ds_core_msgs/KeyString:std_msgs/Header:ds_mx_msgs/MxTaskStatus
 
 _ds_mx_msgs_generate_messages_check_deps_MxMissionStatus: ds_msgs/ds_mx_msgs/CMakeFiles/_ds_mx_msgs_generate_messages_check_deps_MxMissionStatus
 _ds_mx_msgs_generate_messages_check_deps_MxMissionStatus: ds_msgs/ds_mx_msgs/CMakeFiles/_ds_mx_msgs_generate_messages_check_deps_MxMissionStatus.dir/build.make

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_AggregatedState.dir/progress.make
 
 ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_AggregatedState:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_nav_msgs /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg std_msgs/Header:ds_nav_msgs/FlaggedDouble:ds_core_msgs/DsHeader
+	cd /home/yang/my_uuv/build/ds_msgs/ds_nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_nav_msgs /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/AggregatedState.msg ds_core_msgs/DsHeader:ds_nav_msgs/FlaggedDouble:std_msgs/Header
 
 _ds_nav_msgs_generate_messages_check_deps_AggregatedState: ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_AggregatedState
 _ds_nav_msgs_generate_messages_check_deps_AggregatedState: ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_AggregatedState.dir/build.make

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_WaypointSet.dir/progress.make
 
 uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_WaypointSet:
-	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/msg/WaypointSet.msg uuv_control_msgs/Waypoint:std_msgs/Time:std_msgs/Header:geometry_msgs/Point
+	cd /home/yang/my_uuv/build/uuv_simulator/uuv_control/uuv_control_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_control_msgs /home/yang/my_uuv/src/uuv_simulator/uuv_control/uuv_control_msgs/msg/WaypointSet.msg uuv_control_msgs/Waypoint:geometry_msgs/Point:std_msgs/Time:std_msgs/Header
 
 _uuv_control_msgs_generate_messages_check_deps_WaypointSet: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_WaypointSet
 _uuv_control_msgs_generate_messages_check_deps_WaypointSet: uuv_simulator/uuv_control/uuv_control_msgs/CMakeFiles/_uuv_control_msgs_generate_messages_check_deps_WaypointSet.dir/build.make

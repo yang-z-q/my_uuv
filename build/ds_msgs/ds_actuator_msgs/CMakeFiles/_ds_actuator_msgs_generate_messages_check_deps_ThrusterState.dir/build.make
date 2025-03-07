@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_actuator_msgs/CMakeFiles/_ds_actuator_msgs_generate_messages_check_deps_ThrusterState.dir/progress.make
 
 ds_msgs/ds_actuator_msgs/CMakeFiles/_ds_actuator_msgs_generate_messages_check_deps_ThrusterState:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_actuator_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_actuator_msgs /home/yang/my_uuv/src/ds_msgs/ds_actuator_msgs/msg/ThrusterState.msg std_msgs/Header:ds_core_msgs/DsHeader
+	cd /home/yang/my_uuv/build/ds_msgs/ds_actuator_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_actuator_msgs /home/yang/my_uuv/src/ds_msgs/ds_actuator_msgs/msg/ThrusterState.msg ds_core_msgs/DsHeader:std_msgs/Header
 
 _ds_actuator_msgs_generate_messages_check_deps_ThrusterState: ds_msgs/ds_actuator_msgs/CMakeFiles/_ds_actuator_msgs_generate_messages_check_deps_ThrusterState
 _ds_actuator_msgs_generate_messages_check_deps_ThrusterState: ds_msgs/ds_actuator_msgs/CMakeFiles/_ds_actuator_msgs_generate_messages_check_deps_ThrusterState.dir/build.make

@@ -83,52 +83,52 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_lisp: /home/yan
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Charge.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Charge.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Charge.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Charge.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Charge.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from ds_hotel_msgs/Charge.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Charge.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PowerSupply.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PowerSupply.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PowerSupply.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PowerSupply.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PowerSupply.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from ds_hotel_msgs/PowerSupply.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PowerSupply.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTP.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTP.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTP.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTP.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTP.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from ds_hotel_msgs/HTP.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTP.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/HTPGL.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from ds_hotel_msgs/HTPGL.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/HTPGL.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/BatMan.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/BatMan.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/BatMan.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/BatMan.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/BatMan.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from ds_hotel_msgs/BatMan.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/BatMan.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Battery.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Battery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Battery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Battery.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/Battery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from ds_hotel_msgs/Battery.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/Battery.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBatteryPack.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/ClioBattery.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from ds_hotel_msgs/ClioBattery.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/ClioBattery.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
@@ -144,17 +144,17 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_lisp: /home/yan
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWRdevice.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PWR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from ds_hotel_msgs/PWR.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PWR.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDevices.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitch.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from ds_hotel_msgs/PwrSwitch.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitch.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
@@ -165,8 +165,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_lisp: /home/yan
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Lisp code from ds_hotel_msgs/PwrSwitchDeviceStatus.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceStatus.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
@@ -178,15 +178,15 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_lisp: /home/yan
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Lisp code from ds_hotel_msgs/PwrSwitchDeviceCmd.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/PwrSwitchDeviceCmd.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/XR.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/XR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/XR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/XR.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/XR.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Lisp code from ds_hotel_msgs/XR.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/XR.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
@@ -197,8 +197,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_lisp: /home/yan
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/A2D2.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/A2D2.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/A2D2.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/A2D2.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg/A2D2.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/DsHeader.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Lisp code from ds_hotel_msgs/A2D2.msg"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/A2D2.msg -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/msg
 
@@ -239,8 +239,8 @@ ds_msgs/ds_hotel_msgs/CMakeFiles/ds_hotel_msgs_generate_messages_lisp: /home/yan
 
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv
-/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg/TriggerChannelConfig.msg
+/home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/srv/TrigPrmCtrlCmd.lisp: /home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg/KeyString.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yang/my_uuv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Lisp code from ds_hotel_msgs/TrigPrmCtrlCmd.srv"
 	cd /home/yang/my_uuv/build/ds_msgs/ds_hotel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/srv/TrigPrmCtrlCmd.srv -Ids_hotel_msgs:/home/yang/my_uuv/src/ds_msgs/ds_hotel_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Ids_core_msgs:/home/yang/my_uuv/src/ds_msgs/ds_core_msgs/msg -p ds_hotel_msgs -o /home/yang/my_uuv/devel/share/common-lisp/ros/ds_hotel_msgs/srv
 

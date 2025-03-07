@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yang/my_uuv/build
 include ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_Shift.dir/progress.make
 
 ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_Shift:
-	cd /home/yang/my_uuv/build/ds_msgs/ds_nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_nav_msgs /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/Shift.msg std_msgs/Header:ds_core_msgs/DsHeader
+	cd /home/yang/my_uuv/build/ds_msgs/ds_nav_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ds_nav_msgs /home/yang/my_uuv/src/ds_msgs/ds_nav_msgs/msg/Shift.msg ds_core_msgs/DsHeader:std_msgs/Header
 
 _ds_nav_msgs_generate_messages_check_deps_Shift: ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_Shift
 _ds_nav_msgs_generate_messages_check_deps_Shift: ds_msgs/ds_nav_msgs/CMakeFiles/_ds_nav_msgs_generate_messages_check_deps_Shift.dir/build.make
