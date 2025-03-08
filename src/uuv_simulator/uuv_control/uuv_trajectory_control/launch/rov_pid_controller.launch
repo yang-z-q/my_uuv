@@ -148,7 +148,7 @@
   </group>
 
   <!-- 添加路径可视化节点 -->
-  <group ns="$(arg uuv_name)">
+  <!-- <group ns="$(arg uuv_name)">
     <node pkg="uuv_trajectory_control" 
           type="path_publisher.py" 
           name="path_publisher"
@@ -156,6 +156,6 @@
       <param name="uuv_name" value="$(arg uuv_name)"/>
       <param name="use_ned_frame" value="$(arg use_ned_frame)"/>
     </node>
-  </group>
+  </group> -->
 
 </launch>
